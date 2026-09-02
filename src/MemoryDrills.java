@@ -14,6 +14,7 @@ public class MemoryDrills {
         System.out.println("Primitive 'a': " + a);
         System.out.println("Reference 'array[0]': " + array[0]);
 
+
     }
 
     public static void modifyPrimitive(int number) {
