@@ -12,7 +12,7 @@ public class StringDrills {
     public static long benchmarkString() {
         long startTime = System.currentTimeMillis();
         String result = "";
-
+    
         for(int i = 1; i <= 100000; i++) {
             result += "a";
         }

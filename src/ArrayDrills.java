@@ -1,6 +1,12 @@
 public class ArrayDrills {
     public static void main(String[] args) {
 
+        Account account = new Account(100.00);
+
+        account.withdraw(100.00);
+
+        System.out.println("Final balance: " + account.getBalance());
+
         int[] numbers = {12, 45, 2, 89, 23};
 
         System.out.println(findMax(numbers));
