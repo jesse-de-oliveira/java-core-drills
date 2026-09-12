@@ -15,6 +15,12 @@ public class ArrayDrills {
         for(int num : reversed) {
             System.out.println(num + " ");
         }
+
+        SavingsAccount savingsAccount = new SavingsAccount(100.00);
+
+        savingsAccount.withdraw(30.00);
+
+        System.out.println(savingsAccount.getBalance());
     }
 
     public static int findMax(int[] numbers) {
